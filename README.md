@@ -18,21 +18,9 @@ This project showcases the deployment of a deep learning-based autonomous road-f
 
 First, clone the repository to your workspace 
 
-```shell
-https://git.hs-coburg.de/siv2871s/lane_following.git
-```
 ### Step 2: Build the Package
 
-Upon successful completion of the cloning process, go to workspace.
-```shell
-cd ..
-```
-
-Next, build the package by using the colcon command.
-
-```shell
-colcon build --symlink-install
-```
+Upon successful completion of the cloning process, go to workspace and build the package by using the colcon command.
 
 ### Step 3: Source the Workspace
 Once the build process finishes, you'll have to source the workspace to make it accessible for ROS2.
